@@ -1,6 +1,3 @@
-using System;
-
-
 namespace Cycling_Symbols
 {
     class Program
