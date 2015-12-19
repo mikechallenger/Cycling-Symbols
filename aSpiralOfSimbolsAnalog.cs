@@ -1,3 +1,4 @@
+//  Сплошная спиралька
 static string text;
 static int count;
 static int size;
