@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<HTML>
+  <HEAD>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <TITLE>Пример Web-страницы</TITLE>
+  </HEAD>
+  <BODY>
+    <!-- Коментарий можно создать Ctrl + '/' -->
+    <div id="cheader">
+
+      <h1>Справочник по HTML и CSS</h1>
+    </div>
+    <div id="cnavbar">
+      <li>
+        <ul><a href="index.html">INDEX</a></ul>
+        <ul><a href="t_title.html">TITLE</a></ul>
+      </li>
+    </div>
+    <div id="cmain">
+      <P><em>Приветствуем</em> на нашем Web-сайте всех, кто занимается Web-дизайном!
+        Здесь вы сможете найти информацию обо всех интернет-технологиях,
+        применяемых при создании Web-страниц. А именно, о языках <dfn>HTML</dfn> и
+        <dfn>CSS</dfn>.</P>
+      <hr>
+      <P>Русская Википедия определяет термин HTML <br> так:</P>
+      <blockquote>
+        <P>HTML (от англ. HyperText Markup Language — язык разметки
+          гипертекста) — стандартный язык разметки документов во Всемирной
+          паутине.</P>
+      </blockquote>
+      <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank" accesskey="w">HTML WIKI</a>
+
+      <p style="font-family: 'Arial'; color: #ffff0f">Пожалуй, ни убавить ни прибавить...</p>
+
+      <P>Список версий HTML:</P>
+      <TABLE>
+        <caption><strong>Табличка</strong></caption>
+        <THEAD>
+          <TR>
+            <TH>Версия HTML</TH>
+            <TH>Год выхода</TH>
+            <TH>Особенности</TH>
+          </TR>
+        </THEAD>>
+        
+        <TR>
+          <TD>1.0</TD>
+          <TD>1992</TD>
+          <TD>Официально не была стандартизована</TD>
+        </TR><p></p>
+        <TR>
+          <TD>2.0</TD>
+          <TD>1995</TD>
+          <TD>Первая стандартизованная версия</TD>
+        </TR>
+        <TR>
+          <TD>3.2</TD>
+          <TD>1997</TD>
+          <TD>Поддержка таблиц и графики</TD>
+        </TR>
+          <TR>
+          <TD>4.0</TD>
+          <TD>1997</TD>
+          <TD>&quot;Очищен&quot; от устаревших тегов</TD>
+        </TR>
+        <TR>
+          <TD>4.01</TD>
+          <TD>1999</TD>
+          <TD>В основном, исправление ошибок</TD>
+        </TR>
+        <TR>
+          <TD>5.0</TD>
+          <TD>?</TD>
+          <TD>В разработке</TD>
+        </TR>
+      </TABLE>
+
+      <hr>
+      <P>HTML позволяет формировать на Web-страницах следующие элементы:</P>
+      <ul>
+        <li>абзацы;</li>
+        <li>заголовки;</li>
+        <li>цитаты;</li>
+        <li>списки;</li>
+        <li>таблицы;</li>
+        <li>графические изображения;</li>
+        <li>аудио- и видеоролики.</li>
+      </ul>
+      <h2>Основные принципы HTML</h2>
+      <P>. . .</P>
+      <h2>Теги HTML</h2>
+      <P>!DOCTYPE, BODY, EM, HEAD, HTML, META, P, STRONG, TITLE</P>
+
+      <DL>
+        <DT>Содержимое</DT>
+        <DD>Информация, отображаемая на Web-странице</DD>
+        <DT>Представление</DT>
+        <DD>Набор правил, определяющих формат отображения содержимого</DD>
+        <DT>Поведение</DT>
+        <DD>Набор правил, определяющих реакцию Web-страницы или ее элементов на
+          действия посетителя</DD>
+      </DL>
+
+      <kbd>using system;</kbd>
+
+      <P>Теги HTML служат для создания элементов Web-страниц.
+      <STRONG>Соблюдайте порядок вложенности тегов!</STRONG><P>
+      <P>Тег <CODE>P</CODE> служит для создания <DFN>абзаца</DFN> HTML.</P>
+      <P>Язык <ABBR>HTML</ABBR> служит для создания <INS>содержимого</INS>
+      Web-страниц.</P>
+      <P>Наберите в Web-обозревателе интернет-адрес
+      <KBD>http://www.w3.org</KBD>.<P>
+
+      <pre>текст 
+      с 
+      фиксированным 
+      форматированием</pre>
+    </div>
+    <div id="ccopyright">
+      <address> Created by Mike Chellenger </adress>
+      <a href="mailto:adm@adm.ru">Send a mail</a>
+    </div>
+    <SCRIPT>
+      var dNow = new Date();
+      var sNow = dNow.getDate() + "." + dNow.getMonth() + "." + dNow.getFullYear();
+      document.write(sNow);
+    </SCRIPT>
+  </BODY>
+</HTML>
