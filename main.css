@@ -1,0 +1,42 @@
+#cheader { width: 100% }
+#cnavbar { 
+	width: 30%;
+	min-width: 240px;
+	float: left ;
+}
+#cmain { 
+	width: 70%;
+	float: left;
+	height: 50%;
+	overflow: visible;
+}
+#ccopyright { 
+	width: 100%;
+	clear: both;
+}
+body {
+	color: #3b4043;
+	background-color: #f8f8f8;
+	font-family: Verdana, Arial, sans-serif;
+}
+p {
+	font-size: 12pt;
+}
+h1, h2, h6 {
+	font-family: "Arial", sans-serif;
+}
+h1 {
+	font-size: 20pt;
+}
+h2 {
+	font-size: 18pt;
+}
+h6 {
+	font-size:12pt;
+}
+table, blockquote, address {
+	font-size: 10pt;
+}
+blockquote, address {
+	font-style: italic;
+}
